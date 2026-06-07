@@ -80,8 +80,8 @@ const UploadResume = () => {
       <div className="max-w-2xl w-full mx-auto">
         {/* Header */}
         <div className="text-center mb-4">
-          <div className="inline-flex items-center justify-center w-12 h-12 rounded-2xl bg-blue-100 dark:bg-blue-900/30 mb-2">
-            <FileText className="text-blue-600 dark:text-blue-400" size={22} />
+          <div className="inline-flex items-center justify-center w-10 h-10 rounded-2xl bg-blue-100 dark:bg-blue-900/30">
+            <FileText className="text-blue-600 dark:text-blue-400" size={20} />
           </div>
 
           <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 dark:text-white">
@@ -253,7 +253,7 @@ const UploadResume = () => {
           </form>
         </div>
 
-        <p className="text-center text-xs text-slate-500 dark:text-slate-400 mt-4">
+        <p className="text-center text-xs text-slate-500 dark:text-slate-400 mt-2">
           Your resume is never stored. Analysis happens in real time.
         </p>
       </div>
