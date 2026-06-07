@@ -2,7 +2,7 @@ import React from "react";
 import { CheckCircle2, AlertTriangle, XCircle, Info } from "lucide-react";
 
 const ATSScoreCard = ({ score = 0 }) => {
-  // 1. Dynamic feedback tiers based on realistic ATS standards
+
   const getScoreTier = (score) => {
     if (score >= 85) {
       return {
@@ -55,8 +55,7 @@ const ATSScoreCard = ({ score = 0 }) => {
   const circumference = 2 * Math.PI * radius;
   const strokeDashoffset = circumference - (score / 100) * circumference;
 
-  // Mocked sub-metrics to make the card look like a true analytical tool
-  // (In production, you can pass these as props alongside `score`)
+
   const metrics = [
     {
       label: "Keyword Optimization",
@@ -77,9 +76,9 @@ const ATSScoreCard = ({ score = 0 }) => {
 
   return (
     <div className="w-full bg-white dark:bg-slate-800 rounded-2xl shadow-sm border border-slate-200 dark:border-slate-700 p-6 md:p-8">
-      {/* Grid Layout: Splitting into Ring visuals and Text insights for larger displays */}
+
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
-        {/* Left Section: Dynamic SVG Gauge */}
+
         <div className="flex flex-col items-center justify-center">
           <div className="relative w-36 h-36">
             <svg
@@ -109,7 +108,7 @@ const ATSScoreCard = ({ score = 0 }) => {
               />
             </svg>
 
-            {/* Center Absolute Score */}
+            {/* Center Circular Score */}
             <div className="absolute inset-0 flex flex-col items-center justify-center">
               <span className="text-4xl font-extrabold text-slate-900 dark:text-white tracking-tight">
                 {score}
@@ -121,7 +120,7 @@ const ATSScoreCard = ({ score = 0 }) => {
           </div>
         </div>
 
-        {/* Middle Section: Personalized Text Insight Summary */}
+        {/* Personalized Text Insight Summary */}
         <div className="md:col-span-2 flex flex-col justify-center">
           <div
             className={`inline-flex items-center gap-2 px-3 py-1.5 rounded-xl w-fit ${tier.bgLight}`}
@@ -144,7 +143,7 @@ const ATSScoreCard = ({ score = 0 }) => {
 
       <hr className="my-6 border-slate-100 dark:border-slate-700/50" />
 
-      {/* Bottom Section: Analytical Sub-Metrics Progression Bars */}
+      {/* Analytical Sub-Metrics Progression Bars */}
       <div>
         <h3 className="text-xs font-bold uppercase tracking-wider text-slate-400 dark:text-slate-500 mb-4">
           Analysis Breakdown
