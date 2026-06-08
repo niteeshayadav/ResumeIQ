@@ -1,97 +1,94 @@
-# 🧠 ResumeIQ — AI-Powered Resume Analyzer
+# 🧠 ResumeIQ
+
+<div align="center">
+
+### AI-Powered Resume Analyzer — ATS Score · Strengths · Gaps · Actionable Suggestions
 
 <p align="center">
-  <img src="./screenshots/banner.png" alt="ResumeIQ Banner" width="100%"/>
+  <img src="https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black" />
+  <img src="https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?logo=tailwindcss&logoColor=white" />
+  <img src="https://img.shields.io/badge/Lucide_React-F56565" />
+  <img src="https://img.shields.io/badge/React_Router-CA4245?logo=reactrouter&logoColor=white" />
+  <img src="https://img.shields.io/badge/Axios-5A29E4?logo=axios&logoColor=white" />
 </p>
-
-<h3 align="center">Upload · Analyze · Get Interview Ready</h3>
 
 <p align="center">
-  ResumeIQ is a full-stack AI application that analyzes your resume against a specific job role, generates an ATS compatibility score, and delivers personalized, actionable feedback — powered by Google Gemini 2.5 Flash.
+  <img src="https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white" />
+  <img src="https://img.shields.io/badge/Express.js-000000?logo=express&logoColor=white" />
+  <img src="https://img.shields.io/badge/Multer-FF6C37" />
+  <img src="https://img.shields.io/badge/pdf--parse-4A90D9" />
+  <img src="https://img.shields.io/badge/dotenv-ECD53F?logo=dotenv&logoColor=black" />
+  <img src="https://img.shields.io/badge/CORS-Enabled-4CAF50" />
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
-  <img src="https://img.shields.io/badge/Express.js-5-black?style=for-the-badge&logo=express"/>
-  <img src="https://img.shields.io/badge/Node.js-Backend-339933?style=for-the-badge&logo=node.js&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Google_Gemini-2.5_Flash-4285F4?style=for-the-badge&logo=google&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Tailwind_CSS-v4-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Vite-Bundler-646CFF?style=for-the-badge&logo=vite&logoColor=white"/>
-  <img src="https://img.shields.io/badge/License-ISC-lightgrey?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Google_Gemini-4285F4?logo=google&logoColor=white" />
+  <img src="https://img.shields.io/badge/REST_API-FF6C37" />
+  <img src="https://img.shields.io/badge/No_Database-Privacy_First-6B7280" />
+  <img src="https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/Vercel-000000?logo=vercel&logoColor=white" />
+  <img src="https://img.shields.io/badge/Render-46E3B7?logo=render&logoColor=black" />
+  <img src="https://img.shields.io/badge/License-ISC-lightgrey" />
 </p>
+
+</div>
 
 ---
 
-## 🌟 Live Demo
+## 🌐 Live Demo
 
-🔗 **Live Application:** https://resumeiq-insights.vercel.app
+🔗 **Live Site:** https://resumeiq-insights.vercel.app
+
+🔗 **GitHub Repository:** https://github.com/niteeshayadav/resumeiq
 
 ---
 
-## 📖 Overview
+## 📖 About
 
-Most resumes never reach a human recruiter.
+Over **75% of resumes are filtered out by ATS software before a recruiter ever reads them.** Those that do reach a recruiter get an average of **6–8 seconds** of attention.
 
-Before anyone reads your resume, it passes through an **Applicant Tracking System (ATS)** — software that automatically filters candidates based on keywords, formatting, and role relevance. Studies suggest that **over 75% of resumes are rejected by ATS before a recruiter ever sees them.**
+**ResumeIQ** was built to solve both problems.
 
-Even when resumes do reach recruiters, the average review time is **6–8 seconds.**
+Upload your PDF resume, specify your target role, job type, and experience level — and receive a full AI-powered breakdown in seconds. ResumeIQ calculates your ATS compatibility score, surfaces your strengths, identifies critical gaps, highlights missing skills, and delivers four concrete, actionable improvement steps — all powered by **Google Gemini 2.5 Flash**.
 
-**ResumeIQ** was built to solve both of these problems.
-
-Upload your resume as a PDF, tell ResumeIQ what role you're targeting, and receive a comprehensive AI-powered analysis in seconds — including your ATS compatibility score, detected strengths and weaknesses, missing skills, and concrete improvement suggestions.
-
-> 💡 Your resume is **never stored**. Text is extracted in-memory and discarded immediately after analysis.
+Your resume is **never stored or persisted.** Text is extracted in-memory and discarded immediately after analysis.
 
 ---
 
 ## ✨ Features
 
 ### 🤖 AI-Powered Resume Analysis
-Leverages **Google Gemini 2.5 Flash** to intelligently evaluate your resume content against industry benchmarks and role-specific hiring expectations. Analysis is grounded in your actual resume content — no generic feedback.
+Leverages **Google Gemini 2.5 Flash** with structured prompt engineering to evaluate resume content against role-specific hiring benchmarks. Every analysis is grounded in your actual resume — no generic templates.
 
----
-
-### 📊 ATS Compatibility Score
-Generates a **0–100 ATS score** that reflects how well your resume aligns with the filters modern Applicant Tracking Systems use for your target role. The score is broken down into three sub-metrics:
-
+### 📊 ATS Compatibility Score (0–100)
+Generates a score reflecting alignment with Applicant Tracking System filters for your target role, broken into three sub-metrics:
 - **Keyword Optimization** — presence of role-relevant terms
-- **Formatting & Parseability** — ATS readability
+- **Formatting & Parseability** — ATS readability and structure
 - **Section Completeness** — coverage of expected resume sections
 
----
-
 ### 💪 Strength Detection
-Identifies the **4 strongest aspects** of your resume based on its actual content — not generic compliments. This could include your project quality, technical depth, certifications, or relevant experience.
-
----
+Identifies exactly **4 strengths** based on actual resume content — project quality, technical depth, certifications, and relevant experience.
 
 ### ⚠️ Weakness Analysis
-Pinpoints the **4 most critical gaps** that could hurt your chances, such as:
-- Missing quantified achievements
-- Weak or vague project descriptions
-- Absence of relevant keywords
-- Formatting issues that confuse parsers
-
----
+Pinpoints exactly **4 critical gaps** such as missing quantified achievements, weak action verbs, vague project descriptions, or absent keywords.
 
 ### 🛠️ Missing Skills Detection
-Compares your resume against your target role and surfaces **4 key skills or technologies** recruiters expect to see but couldn't find. Example:
+Cross-references your resume against the target role to surface **4 key technologies or skills** recruiters expect but couldn't find.
 
-| Target Role | Missing Skills Detected |
+| Target Role | Example Missing Skills |
 |---|---|
-| Full Stack Developer | Docker, TypeScript, CI/CD, Redis |
-| Backend Developer | System Design, gRPC, Kafka, PostgreSQL |
-| Frontend Developer | Accessibility (a11y), Testing (Jest/RTL), Storybook, SSR |
-
----
+| Full Stack Developer | Docker · TypeScript · CI/CD · Redis |
+| Backend Developer | System Design · gRPC · Kafka · PostgreSQL |
+| Frontend Developer | a11y · Jest/RTL · Storybook · SSR |
 
 ### 🎯 Actionable Suggestions
-Provides **4 specific, implementable improvements** — not vague advice. Each suggestion is under 15 words and directly tied to what's missing or weak in your resume.
-
----
+Delivers **4 specific, implementable improvements** — each under 15 words and directly tied to resume weaknesses. No vague advice.
 
 ### 🎨 Role-Aware, Context-Sensitive Analysis
-Analysis is fully customized based on three inputs:
+Every analysis is fully customized based on three inputs:
 
 | Input | Options |
 |---|---|
@@ -99,115 +96,167 @@ Analysis is fully customized based on three inputs:
 | **Job Type** | Internship · Full-Time |
 | **Experience Level** | Student · Fresher · 1–2 Years · 3–5 Years |
 
-A "Student" targeting an "Internship" for "Frontend Developer" receives a completely different analysis than a "Fresher" targeting a "Full-Time" "Backend Developer" role.
+### 🌗 Light / Dark Mode
+Full theme switching with Tailwind CSS v4 and persistent preference via `localStorage`.
+
+### 📄 PDF-Only Upload with Size Validation
+Secure in-browser PDF upload handled by **Multer** with MIME type enforcement and a **5 MB** file size cap. Zero disk writes — everything runs in-memory.
 
 ---
 
-### 📄 PDF Resume Upload
-Secure in-browser PDF upload handled by **Multer** on the backend. Text is extracted using **pdf-parse** with zero file persistence — your data never touches a database.
+## 📸 Screenshots
 
----
-
-### ⚡ Modern Responsive UI
-Built with **React 19**, **Tailwind CSS v4**, and **Vite** — fast, responsive, and accessible across desktop and mobile.
-
----
-
-## 🖼️ Screenshots
+> ResumeIQ supports full **Light & Dark mode** across every screen.
 
 ### 🏠 Landing Page
-<img src="./screenshots/home.png" alt="Home Page" width="100%"/>
+
+| ☀️ Light Mode | 🌙 Dark Mode |
+|:---:|:---:|
+| ![Home Light](./screenshots/lightmode-home.png) | ![Home Dark](./screenshots/darkmode-home.png) |
 
 ---
 
 ### 📤 Resume Upload
-<img src="./screenshots/upload.png" alt="Upload Page" width="100%"/>
+
+| ☀️ Light Mode | 🌙 Dark Mode |
+|:---:|:---:|
+| ![Upload Light](./screenshots/lightmode-uploadresume.png) | ![Upload Dark](./screenshots/darkmode-uploadresume.png) |
 
 ---
 
-### 📈 Analysis Dashboard
-<img src="./screenshots/analysis.png" alt="Analysis Dashboard" width="100%"/>
+### ⏳ AI Analysis in Progress
+
+| ☀️ Light Mode | 🌙 Dark Mode |
+|:---:|:---:|
+| ![Loading Light](./screenshots/lightmode-loading.png) | ![Loading Dark](./screenshots/darkmode-loading.png) |
 
 ---
 
-## 🏗️ System Architecture
+### 📊 Analysis Dashboard
+
+| ☀️ Light Mode | 🌙 Dark Mode |
+|:---:|:---:|
+| ![Analysis Light](./screenshots/lightmode-analyzedresume.png) | ![Analysis Dark](./screenshots/darkmode-analyzedresume.png) |
+
+---
+
+## 🏗️ Architecture
 
 ```
-┌─────────────────────────────────────────────────────────┐
-│                     User (Browser)                      │
-│                React 19 + Vite Frontend                 │
-│                                                         │
-│   UploadResume.jsx  ──►  FormData (PDF + job metadata)  │
-└────────────────────────────┬────────────────────────────┘
-                             │  POST /api/resume/analyze
-                             │  multipart/form-data
-                             ▼
-┌─────────────────────────────────────────────────────────┐
-│                  Express 5 Backend                      │
-│                                                         │
-│  upload.middleware.js  →  Multer buffers PDF in-memory  │
-│  resume.controller.js  →  Orchestrates the pipeline     │
-│                                                         │
-│         ┌──────────────────┬──────────────────┐         │
-│         ▼                  ▼                  │         │
-│   pdf.service.js    gemini.service.js         │         │
-│   (pdf-parse)       (Gemini 2.5 Flash)        │         │
-│   Extract text      Build prompt +            │         │
-│   from buffer       call Gemini API           │         │
-│         │                  │                  │         │
-│         └──────────────────┘                  │         │
-│                    ▼                           │         │
-│           Parse JSON response                 │         │
-│           { atsScore, strengths,              │         │
-│             weaknesses, missingSkills,        │         │
-│             suggestions }                     │         │
-└────────────────────────────┬────────────────────────────┘
-                             │  JSON Response
-                             ▼
-┌─────────────────────────────────────────────────────────┐
-│                  Analysis Dashboard                     │
-│                                                         │
-│   ATSScoreCard.jsx    →  Circular score + progress bars │
-│   StrengthsList.jsx   →  4 detected strengths           │
-│   WeaknessList.jsx    →  4 identified gaps              │
-│   MissingSkills.jsx   →  4 missing technologies         │
-│   Suggestions.jsx     →  4 improvement actions          │
-└─────────────────────────────────────────────────────────┘
+┌──────────────────────────────────────────────────────────────┐
+│                       User (Browser)                         │
+│              React 19 + Vite + Tailwind CSS v4               │
+│                                                              │
+│   Home.jsx  ──►  UploadResume.jsx  ──►  AnalyzeResume.jsx    │
+│                  FormData (PDF + metadata)                    │
+└──────────────────────────┬───────────────────────────────────┘
+                           │  POST /api/resume/analyze
+                           │  multipart/form-data
+                           ▼
+┌──────────────────────────────────────────────────────────────┐
+│                    Express 5 Backend                         │
+│                                                              │
+│  upload.middleware.js  →  Multer (in-memory PDF buffer)      │
+│  resume.controller.js  →  Orchestrates the pipeline          │
+│                                                              │
+│          ┌───────────────────┬──────────────────┐            │
+│          ▼                   ▼                  │            │
+│   pdf.service.js      gemini.service.js         │            │
+│   (pdf-parse)         (Gemini 2.5 Flash)        │            │
+│   Extract plain       Build structured          │            │
+│   text from buffer    prompt + call API         │            │
+│          │                   │                  │            │
+│          └───────────────────┘                  │            │
+│                     ▼                           │            │
+│            Parse JSON response                  │            │
+│            { atsScore, strengths,               │            │
+│              weaknesses, missingSkills,         │            │
+│              suggestions }                      │            │
+└──────────────────────────┬───────────────────────────────────┘
+                           │  JSON Response
+                           ▼
+┌──────────────────────────────────────────────────────────────┐
+│                    Analysis Dashboard                        │
+│                                                              │
+│   ATSScoreCard.jsx   →  Circular progress + breakdown bars   │
+│   StrengthsList.jsx  →  4 detected strengths                 │
+│   WeaknessList.jsx   →  4 identified gaps                    │
+│   MissingSkills.jsx  →  4 missing technologies               │
+│   Suggestions.jsx    →  4 actionable improvements            │
+└──────────────────────────────────────────────────────────────┘
 ```
 
 ---
 
+## 🔄 How It Works
+
+```
+Step 1 — Upload
+        User uploads a PDF resume and enters job role, type, and experience level.
+        ⬇
+Step 2 — Send to Backend
+        Frontend sends FormData (PDF + metadata) to POST /api/resume/analyze.
+        ⬇
+Step 3 — Extract Resume Text
+        Multer buffers the PDF in memory. pdf-parse extracts clean plain text.
+        No file is written to disk.
+        ⬇
+Step 4 — Build Gemini Prompt
+        gemini.service.js constructs a structured prompt with the resume text,
+        role, job type, and experience level, instructing Gemini to return a
+        strict JSON object with exact field names, types, and item counts.
+        ⬇
+Step 5 — Gemini AI Analysis
+        Google Gemini 2.5 Flash processes the prompt with responseMimeType set
+        to application/json — guaranteeing structured, parseable output.
+        ⬇
+Step 6 — Parse & Return
+        Backend parses and validates the JSON, then returns it to the frontend.
+        ⬇
+Step 7 — Render Dashboard
+        React renders the full analysis: ATS score card with circular progress,
+        sub-metric breakdown bars, strengths, weaknesses, missing skills, suggestions.
+```
+
+---
 ## 🛠️ Tech Stack
 
 ### Frontend
 
-| Technology | Version | Purpose |
-|---|---|---|
-| React | 19 | UI framework |
-| React Router DOM | v7 | Client-side routing |
-| Tailwind CSS | v4 | Utility-first styling |
-| Vite | v8 | Build tool & dev server |
-| Axios | ^1.17.0 | HTTP client |
-| Lucide React | ^1.17.0 | Icon library |
-| React Hot Toast | ^2.6.0 | Toast notifications |
+| Technology | Purpose |
+|---|---|
+| React | UI framework |
+| React Router DOM | Client-side routing |
+| Tailwind CSS | Utility-first styling + dark mode |
+| Vite | Build tool & dev server |
+| Axios | HTTP client |
+| Lucide React | Icon library |
+| React Hot Toast | Toast notifications |
 
 ### Backend
 
-| Technology | Version | Purpose |
-|---|---|---|
-| Node.js | v18+ | Runtime |
-| Express | v5 | Web framework |
-| Multer | ^2.1.1 | Multipart file upload |
-| pdf-parse | ^2.4.5 | PDF text extraction |
-| Axios | ^1.17.0 | Gemini API calls |
-| dotenv | ^17.4.2 | Environment config |
-| CORS | ^2.8.6 | Cross-origin requests |
+| Technology | Purpose |
+|---|---|
+| Node.js | Runtime |
+| Express | Web framework |
+| Multer | In-memory multipart file upload |
+| pdf-parse | PDF text extraction |
+| Axios | Gemini API calls |
+| dotenv | Environment variable management |
+| CORS | Cross-origin request handling |
 
 ### AI
 
-| Service | Model | Purpose |
-|---|---|---|
-| Google Gemini | 2.5 Flash | Resume analysis + JSON generation |
+| Service | Purpose |
+|---|---|
+| Google Gemini (2.5 Flash) | Resume analysis + structured JSON generation |
+
+### Deployment
+
+| Service | Purpose |
+|---|---|
+| Vercel | Frontend hosting |
+| Render | Backend hosting |
 
 ---
 
@@ -217,145 +266,46 @@ Built with **React 19**, **Tailwind CSS v4**, and **Vite** — fast, responsive,
 ResumeIQ/
 │
 ├── Backend/
-│   ├── server.js                        # Entry point, starts Express server
+│   ├── server.js                        # Entry point — starts Express server
 │   ├── .env                             # Environment variables (not committed)
 │   ├── package.json
 │   └── src/
-│       ├── app.js                       # Express app, middleware setup, CORS
+│       ├── app.js                       # Express app, middleware setup, CORS config
 │       ├── controllers/
-│       │   └── resume.controller.js     # Request handler, orchestrates pipeline
+│       │   └── resume.controller.js     # Request handler — orchestrates the pipeline
 │       ├── middlewares/
-│       │   └── upload.middleware.js     # Multer config for in-memory PDF buffer
+│       │   └── upload.middleware.js     # Multer: in-memory buffer, PDF-only, 5MB cap
 │       ├── routes/
 │       │   └── resume.routes.js         # POST /api/resume/analyze
 │       └── services/
-│           ├── gemini.service.js        # Gemini prompt engineering + API call
+│           ├── gemini.service.js        # Prompt engineering + Gemini API call
 │           └── pdf.service.js           # PDF text extraction via pdf-parse
 │
-├── Frontend/
-│   ├── index.html
-│   ├── vite.config.js
-│   ├── package.json
-│   └── src/
-│       ├── App.jsx                      # Route definitions
-│       ├── main.jsx                     # React DOM render
-│       ├── index.css
-│       ├── components/
-│       │   ├── ATSScoreCard.jsx         # Circular SVG score + breakdown bars
-│       │   ├── Loader.jsx               # Full-page loading state
-│       │   ├── MissingSkills.jsx        # Missing skills display
-│       │   ├── StrengthsList.jsx        # Detected strengths
-│       │   ├── Suggestions.jsx          # Improvement suggestions
-│       │   └── WeaknessList.jsx         # Weakness display
-│       ├── pages/
-│       │   ├── Home.jsx                 # Landing page
-│       │   ├── UploadResume.jsx         # PDF upload + job details form
-│       │   ├── AnalyzeResume.jsx        # Full analysis results dashboard
-│       │   ├── Features.jsx             # Features overview page
-│       │   ├── About.jsx                # About page
-│       │   └── LearnMore.jsx            # How it works page
-│       └── services/
-│           ├── api.js                   # Axios base instance
-│           └── resumeService.js         # uploadResume() API call
-│
-└── screenshots/
-    ├── home.png
-    ├── upload.png
-    └── analysis.png
-```
-
----
-
-## ⚙️ Installation & Setup
-
-### Prerequisites
-
-- Node.js v18 or higher
-- A [Google Gemini API key](https://aistudio.google.com/app/apikey) — free tier available
-
----
-
-### 1️⃣ Clone the Repository
-
-```bash
-git clone https://github.com/niteeshayadav/ResumeIQ.git
-cd ResumeIQ
-```
-
----
-
-### 2️⃣ Backend Setup
-
-```bash
-cd Backend
-npm install
-```
-
-Create a `.env` file inside `Backend/`:
-
-```env
-PORT=3000
-GEMINI_API_KEY=your_gemini_api_key_here
-CLIENT_URL=http://localhost:5173
-```
-
-Start the backend:
-
-```bash
-# Development — auto-reload with nodemon
-npm run dev
-
-# Production
-npm start
-```
-
-Server runs at: `http://localhost:3000`
-
----
-
-### 3️⃣ Frontend Setup
-
-```bash
-cd ../Frontend
-npm install
-npm run dev
-```
-
-App runs at: `http://localhost:5173`
-
----
-
-## 🔄 How It Works
-
-```
-Step 1 — Upload Resume
-        User uploads a PDF resume via the drag-and-drop interface.
-        ⬇
-Step 2 — Provide Job Details
-        User enters target job role, selects job type and experience level.
-        ⬇
-Step 3 — Send to Backend
-        Frontend sends FormData (PDF + metadata) to POST /api/resume/analyze.
-        ⬇
-Step 4 — Extract Resume Text
-        Multer buffers the PDF in memory. pdf-parse extracts clean plain text.
-        ⬇
-Step 5 — Build Gemini Prompt
-        gemini.service.js constructs a structured prompt with the resume text,
-        role, job type, and experience level, instructing Gemini to return
-        strict JSON with atsScore, strengths, weaknesses, missingSkills,
-        and suggestions.
-        ⬇
-Step 6 — Gemini AI Analysis
-        Google Gemini 2.5 Flash processes the prompt with responseMimeType
-        set to application/json to guarantee structured output.
-        ⬇
-Step 7 — Parse & Return
-        Backend parses the JSON, validates it, and returns it to the frontend.
-        ⬇
-Step 8 — Render Dashboard
-        React renders the full analysis: ATS score card, circular progress,
-        breakdown bars, strengths, weaknesses, missing skills, suggestions.
+└── Frontend/
+    ├── index.html
+    ├── vite.config.js
+    ├── package.json
+    └── src/
+        ├── App.jsx                      # Route definitions + dark mode state
+        ├── main.jsx
+        ├── index.css
+        ├── components/
+        │   ├── ATSScoreCard.jsx         # Circular SVG score + progress bars
+        │   ├── StrengthsList.jsx        # 4 detected strengths
+        │   ├── WeaknessList.jsx         # 4 identified weaknesses
+        │   ├── MissingSkills.jsx        # 4 missing skills/technologies
+        │   ├── Suggestions.jsx          # 4 actionable improvement steps
+        │   └── Loader.jsx               # Full-screen loading indicator
+        ├── pages/
+        │   ├── Home.jsx                 # Landing page with dark mode toggle
+        │   ├── UploadResume.jsx         # PDF upload + job context form
+        │   ├── AnalyzeResume.jsx        # Analysis dashboard — results grid
+        │   ├── Features.jsx             # Features overview page
+        │   ├── About.jsx                # About page
+        │   └── LearnMore.jsx            # Deep-dive information page
+        └── services/
+            ├── api.js                   # Axios instance with base URL
+            └── resumeService.js         # uploadResume() API call
 ```
 
 ---
@@ -370,7 +320,7 @@ Analyzes a PDF resume against a target job role using Gemini AI.
 
 | Field | Type | Required | Description |
 |---|---|---|---|
-| `resume` | File | ✅ | PDF resume file |
+| `resume` | File (PDF) | ✅ | PDF resume — max 5 MB |
 | `jobRole` | String | ✅ | Target role (e.g. `"Full Stack Developer"`) |
 | `jobType` | String | ✅ | `"Internship"` or `"Full-Time"` |
 | `experience` | String | ✅ | `"Student"` · `"Fresher"` · `"1 - 2 Years"` · `"3 - 5 Years"` |
@@ -394,12 +344,7 @@ Analyzes a PDF resume against a target job role using Gemini AI.
       "Weak action verbs in bullet points",
       "No mention of deployment or DevOps"
     ],
-    "missingSkills": [
-      "Docker",
-      "TypeScript",
-      "CI/CD",
-      "Jest"
-    ],
+    "missingSkills": ["Docker", "TypeScript", "CI/CD", "Jest"],
     "suggestions": [
       "Add measurable outcomes to every project bullet",
       "Include a testing tools section or project",
@@ -421,6 +366,54 @@ Analyzes a PDF resume against a target job role using Gemini AI.
 
 ---
 
+## ⚙️ Local Setup
+
+### 1. Clone Repository
+
+```bash
+git clone https://github.com/niteeshayadav/resumeiq.git
+cd resumeiq
+```
+
+### 2. Backend Setup
+
+```bash
+cd Backend
+npm install
+```
+
+Create a `.env` file inside `Backend/`:
+
+```env
+PORT=3000
+GEMINI_API_KEY=your_gemini_api_key_here
+CLIENT_URL=http://localhost:5173
+```
+
+Run the backend:
+
+```bash
+# Development — auto-reload with nodemon
+npm run dev
+
+# Production
+npm start
+```
+
+Server runs at: `http://localhost:3000`
+
+### 3. Frontend Setup
+
+```bash
+cd ../Frontend
+npm install
+npm run dev
+```
+
+App runs at: `http://localhost:5173`
+
+---
+
 ## 🔐 Environment Variables
 
 | Variable | Required | Description |
@@ -431,60 +424,44 @@ Analyzes a PDF resume against a target job role using Gemini AI.
 
 ---
 
-## 🎯 Use Cases
+## 🚧 Engineering Challenges
 
-### 🎓 Students
-Prepare ATS-optimized resumes before campus placements and internship drives.
+### Structured AI Output
+LLMs can return unpredictable formats. Solved by setting Gemini's `responseMimeType` to `application/json` and writing a tightly constrained prompt specifying exact field names, types, and item counts — exactly 4 per category, each under 15 words, with no cross-section repetition.
 
-### 👨‍💻 Freshers
-Identify and close skill gaps before applying to entry-level roles.
-
-### 💼 Professionals
-Tailor existing resumes to specific roles during career transitions.
-
-### 🧑‍🏫 Career Coaches
-Deliver faster, consistent, and data-backed resume evaluations to clients.
-
----
-
-## 💡 Challenges & Solutions
-
-### PDF Text Extraction
-Diverse PDF formats — generated from Word, LaTeX, Canva, or scanned — produce inconsistent text. Solved using `pdf-parse` with in-memory buffering via Multer, avoiding any disk I/O.
-
-### Structured AI Responses
-LLMs can return unpredictable output formats. Solved by setting Gemini's `responseMimeType` to `application/json` and writing a tightly constrained prompt that specifies exact field names, types, and counts.
-
-### Prompt Engineering for Consistency
-Ensuring the model returns exactly 4 points per category — no more, no less — required iterating on prompt constraints. Final prompt enforces field-level rules: exactly 4 items, each under 15 words, no cross-section repetition.
+### PDF Text Extraction Without Disk I/O
+PDFs generated from Word, LaTeX, Canva, or scans produce inconsistent text layers. Solved using `pdf-parse` with Multer's in-memory buffer — the file never touches the file system, protecting user privacy and reducing infrastructure complexity.
 
 ### Privacy Without Authentication
-The app handles sensitive resume data without user accounts. Solved by processing everything in-memory — no file system writes, no database, no session storage.
+The app handles sensitive resume data without user accounts. Solved by processing everything in-memory — no file system writes, no database, no session storage. The resume text is discarded immediately after the Gemini call completes.
+
+### Consistent Score Tier Classification
+ATS scores needed to map to meaningful feedback tiers without being arbitrary. Solved by defining four tiers with distinct visual treatment: Excellent (≥85, emerald), Good (≥70, blue), Needs Improvement (≥50, amber), and Critical (below 50, rose) — each with a unique icon, color scheme, and tailored description.
 
 ---
 
-## 🏆 Key Learnings
+## 💡 Key Engineering Decisions
 
-Building ResumeIQ provided hands-on experience with:
-
-- **Full-Stack Development** — Connecting a React SPA to an Express REST API end-to-end
-- **Prompt Engineering** — Designing structured prompts that produce reliable JSON from a generative model
-- **File Handling** — Multipart upload, in-memory PDF buffering, text extraction pipeline
-- **AI API Integration** — Working with the Google Gemini API, handling model responses, and parsing structured output
-- **Component Architecture** — Decomposing a complex results dashboard into focused, reusable React components
-- **Production Mindset** — CORS config, environment variables, error handling, and graceful failure states
+| Decision | Rationale |
+|---|---|
+| **No database** | Resume data is sensitive; zero-persistence removes an entire attack surface |
+| **Gemini `application/json` MIME type** | Forces structured output without post-processing fragility |
+| **Multer memory storage** | Avoids disk writes — faster, stateless, and privacy-safe |
+| **Exactly 4 items per category** | Constrained AI output ensures consistent, scannable UI |
+| **React Router v7 state passing** | Analysis data is passed via `location.state` — no URL params, no storage |
+| **Express v5** | Async error propagation without explicit try-catch in every route |
 
 ---
 
-## 🚀 Roadmap
+## 🎯 Use Cases
 
-- [ ] Resume vs Job Description matching (JD paste input)
-- [ ] AI-powered resume rewriter
-- [ ] AI cover letter generator
-- [ ] User authentication + resume history
-- [ ] Resume templates
-- [ ] Multi-language support
-- [ ] Recruiter dashboard
+**🎓 Students** — Prepare ATS-optimized resumes before campus placements and internship drives.
+
+**👨‍💻 Freshers** — Identify and close skill gaps before applying to entry-level roles.
+
+**💼 Professionals** — Tailor existing resumes to specific roles during career transitions.
+
+**🧑‍🏫 Career Coaches** — Deliver faster, data-backed resume evaluations to clients.
 
 ---
 
@@ -494,40 +471,21 @@ Building ResumeIQ provided hands-on experience with:
 
 B.Tech Information Technology · Andhra University College of Engineering
 
-📧 Email: [your-email@example.com](mailto:your-email@example.com)
-💼 LinkedIn: [linkedin.com/in/your-profile](https://linkedin.com/in/your-profile)
-🐙 GitHub: [github.com/niteeshayadav](https://github.com/niteeshayadav)
+📧 Email: niteeshayadav66@gmail.com
+
+🔗 LinkedIn: https://www.linkedin.com/in/niteeshayadav
+
+💻 GitHub: https://github.com/niteeshayadav
 
 ---
 
-## 🤝 Contributing
+<div align="center">
 
-Contributions, issues, and feature requests are welcome.
+⭐ If you found this project useful, consider giving it a star!
 
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature/your-feature`
-3. Commit your changes: `git commit -m "Add your feature"`
-4. Push and open a Pull Request
+**ResumeIQ** · Built to help candidates beat the bots and land interviews.
 
----
+*Because your resume deserves more than 6 seconds.*
 
-## ⭐ Show Your Support
+</div>
 
-If you found this project useful or interesting:
-
-⭐ Star this repository
-🍴 Fork it and build on top of it
-📢 Share it with others who are job hunting
-
----
-
-## 📜 License
-
-This project is licensed under the **ISC License**.
-
----
-
-<p align="center">
-  <b>ResumeIQ</b> · Built with ❤️ to help candidates land interviews<br/>
-  <i>Because your resume deserves more than 6 seconds.</i>
-</p>
